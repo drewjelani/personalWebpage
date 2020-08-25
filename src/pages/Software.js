@@ -3,8 +3,9 @@ import Header from "../components/header";
 
 const Software = () => {
     return (
-        <div className='container'>
+        <div>
             <Header/>
+
             <div className='container'>
                 <p>SDE</p>
             </div>

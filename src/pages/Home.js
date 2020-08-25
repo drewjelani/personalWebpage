@@ -3,8 +3,9 @@ import Header from "../components/header";
 
 const Home = () => {
     return (
-        <div className="container">
+        <div>
             <Header/>
+
             <div className="container">
                 <p>
                     This is the start of Drew's page.  Coming soon!

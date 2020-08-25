@@ -3,8 +3,9 @@ import Header from "../components/header";
 
 const About = () => {
     return (
-        <div className='container'>
+        <div>
             <Header/>
+
             <div className='container'>
                 <p>About</p>
             </div>

@@ -3,8 +3,9 @@ import Header from "../components/header";
 
 const Amaiya = () => {
     return (
-        <div className='container'>
+        <div>
             <Header/>
+
             <div className='container'>
                 <p>Amaiya</p>
             </div>
