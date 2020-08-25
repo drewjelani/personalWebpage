@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../components/header";
 
-const Software = () => {
+const Career = () => {
     return (
         <div>
             <Header/>
@@ -13,4 +13,4 @@ const Software = () => {
     )
 };
 
-export default Software;
+export default Career;

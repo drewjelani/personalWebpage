@@ -10,7 +10,7 @@ class Header extends React.Component {
         const content = [
             Tuple.of(3, key => <Link to="/" className={headerLinkStyling} key={key}>Home</Link>),
             Tuple.of(3, key => <Link to='/about' className={headerLinkStyling} key={key}>About</Link>),
-            Tuple.of(3, key => <Link to="/sde" className={headerLinkStyling} key={key}>Engineering</Link>),
+            Tuple.of(3, key => <Link to="/career" className={headerLinkStyling} key={key}>Career</Link>),
             Tuple.of(3, key => <Link to="/amaiya" className={headerLinkStyling} key={key}>Amaiya</Link>)];
 
         return <div
