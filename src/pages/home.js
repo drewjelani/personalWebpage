@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "../components/header";
-import DrewUpperHalfFromEngagementShoot from "../components/images";
+import images from "../components/images";
 
 const Home = () => {
     return (
@@ -8,13 +8,10 @@ const Home = () => {
             <Header/>
             <div className="container">
                 <span style={{"textAlign":"center", "display":"block"}}>
-                    <img src={DrewUpperHalfFromEngagementShoot} className="rounded center" height="60%" width="60%" alt="Responsive image"/>
+                    <img src={images.DrewUpperHalfFromEngagementShoot} className="rounded center" height="60%" width="60%" alt="Drew Upper Engagement"/>
                 </span>
                 <p>
                     This is the start of Drew's page.  Coming soon!
-                </p>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
                 </p>
             </div>
         </div>
