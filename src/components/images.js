@@ -1,0 +1,3 @@
+const DrewUpperHalfFromEngagementShoot = 'https://cvws.icloud-content.com/B/Acrv9ZqnrltrY7VAFkV8mN74PpE-AeD2GgeKh5_ZhXsn4sCqj-psDZor/IMG_0020.JPG?o=AmkqCXg8BvAzVrs3ookp5E_WpHHhfveHM8QaEX5w5jDI&v=1&x=3&a=CAogpyZwFuRTqPO4QxoZp4xVZAUF5wAlto8Ay4abWjDxAjcSaxDXlrObwi4Y943qm8IuIgEAUgT4PpE-WgRsDZoraiWbwBM86X7PjzZWgfGMhrUuI8vSISwEB2031ot892EQYvf0m2G2ciWnYlTER89KUrFE4fpzoExSQWAeYApZyBlLoRkxVZ-Wk1DjwUx4&e=1598323066&fl=&r=5d9bffe1-91e4-4f89-b773-a03861433c77-1&k=kmMNpNT0-lTlbCazQ_0fEw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=46&s=qrk9lFUEaXHIlNVXrXv168_EdbI&cd=i';
+
+export default DrewUpperHalfFromEngagementShoot;
