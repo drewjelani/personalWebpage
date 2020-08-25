@@ -5,7 +5,6 @@ const Career = () => {
     return (
         <div>
             <Header/>
-
             <div className='container'>
                 <p>SDE</p>
             </div>

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 class Header extends React.Component {
     render() {
-        const linkSpacing = "p-3";
+        const linkSpacing = "p-4";
         const textTreatment = "text-dark";
         const headerLinkStyling = linkSpacing + " " + textTreatment;
 
