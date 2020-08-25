@@ -1,24 +1,8 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './bootstrap.min.css';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import Career from "./pages/Career";
-import Amaiya from "./pages/Amaiya";
-import Home from "./pages/Home";
-import About from "./pages/About";
-
-const routing = (
-    <Router>
-        <div>
-            <Route exact path="/" component={Home} />
-            <Route path="/career" component={Career} />
-            <Route path="/amaiya" component={Amaiya} />
-            <Route path="/about" component={About} />
-        </div>
-    </Router>
-);
+import routing from './utils/routing';
 
 ReactDOM.render(
   routing,
