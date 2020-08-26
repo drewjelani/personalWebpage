@@ -5,7 +5,7 @@ const EntryWithImage = props => {
     return (
         <div>
             <hr/>
-            <PrettyDate/>
+            <PrettyDate date={props.date}/>
             <div>
                 <span style={{"textAlign": "center", "display": "block"}}>
                     <img src={props.url} className="rounded" height="50%" width="50%" alt={props.altImage}/>

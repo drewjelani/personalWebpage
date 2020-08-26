@@ -17,7 +17,7 @@ const altImage = {
 };
 
 const entries = {
- BWithBellyOutside: <EntryWithImage url={images.BBellyOutside} text={entryText.BWithBellyOutside} caption={captions.BWithBellyOutside} alt={altImage.BWithBellyOutside}/>
+ BWithBellyOutside: <EntryWithImage url={images.BBellyOutside} text={entryText.BWithBellyOutside} caption={captions.BWithBellyOutside} alt={altImage.BWithBellyOutside} date={"July 25, 2020"}/>
 };
 
 export default entries;
