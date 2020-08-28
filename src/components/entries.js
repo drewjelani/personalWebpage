@@ -1,5 +1,4 @@
 import images from "./images";
-import EntryWithImage from "./entryWithImage";
 import React from "react";
 
 const entryText = {
@@ -16,8 +15,10 @@ const altImage = {
     BWithBellyOutside: "BWithBellyOutside"
 };
 
-const entries = {
- BWithBellyOutside: <EntryWithImage url={images.BBellyOutside} text={entryText.BWithBellyOutside} caption={captions.BWithBellyOutside} alt={altImage.BWithBellyOutside} date={"July 25, 2020"}/>
-};
+const entries = [
+    {
+        url:images.BBellyOutside, text:entryText.BWithBellyOutside, caption:captions.BWithBellyOutside, alt:altImage.BWithBellyOutside, date:"July 25, 2020"
+    }
+];
 
 export default entries;
