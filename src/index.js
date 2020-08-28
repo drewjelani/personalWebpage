@@ -1,11 +1,18 @@
+import React from 'react'
 import ReactDOM from 'react-dom';
 import './index.css';
 import './bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
-import routing from './utils/routing';
+import { Provider } from 'react-redux'
+import configureStore from './middleware/configureStore'
+import App from "./App";
+
+const store = configureStore();
 
 ReactDOM.render(
-  routing,
+    <Provider store={store}>
+        <App/>
+    </Provider>,
   document.getElementById('root')
 );
 
