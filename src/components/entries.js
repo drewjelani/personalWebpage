@@ -11,7 +11,9 @@ const entryText = {
     InZanzibarAgainstTheWall: "B and I took a trip to Africa.  It was a trip I'd wanted to take for some time, and I was glad to " +
         "share the experience with her.  We spent time in Kenya and Tanzania.",
     CannonBeachAndPreggo: "B and I took our last trip with just the two of us to the Oregon Coast. We spent time in Cannon Beach, Long Beach, " +
-        "and Manzanita.  In Cannon Beach, I think we've found our annual family vacation spot!"
+        "and Manzanita.  In Cannon Beach, I think we've found our annual family vacation spot!",
+    WeddingWalkingOnRocks: "After our wedding, we took a ton of awesome photos together.  Here is my personal favorite.  It depicts what is often " +
+        "the case, B leading and me willfully in tow. 🤗"
 };
 
 const captions = {
@@ -19,7 +21,8 @@ const captions = {
     BInRiverPregnant: "B in the river, like the Arcata hippy sexy mama she is. ❤️",
     JimWithLucySleep: "Jim happily holding Lucy as she is sound asleep.",
     InZanzibarAgainstTheWall: "My and my patna doing what patnas do.",
-    CannonBeachAndPreggo: "B posing in front of the coffee shop looking lovely!"
+    CannonBeachAndPreggo: "B posing in front of the coffee shop looking lovely!",
+    WeddingWalkingOnRocks: "B and I walking after our wedding, away from the ocean, together. 💒"
 };
 
 const altImage = {
@@ -27,7 +30,8 @@ const altImage = {
     BInRiverPregnant: "BInTheRiver",
     JimWithLucySleep: "JimHoldingLucyWhileSleep",
     InZanzibarAgainstTheWall: "A&BinZanzibar",
-    CannonBeachAndPreggo: "B posing before coffee"
+    CannonBeachAndPreggo: "PosingBeforeCoffee",
+    WeddingWalkingOnRocks: "WalkingOnRocksAfterWedding"
 };
 
 const entries = [
@@ -45,6 +49,9 @@ const entries = [
     },
     {
         url:images.CannonBeachAndPreggo, text:entryText.CannonBeachAndPreggo, caption:captions.CannonBeachAndPreggo, alt:altImage.CannonBeachAndPreggo, date:"August 31, 2020"
+    },
+    {
+        url:images.WeddingWalkingOnRocks, text:entryText.WeddingWalkingOnRocks, caption:captions.WeddingWalkingOnRocks, alt:altImage.WeddingWalkingOnRocks, date:"January 26, 2020"
     }
 ];
 
