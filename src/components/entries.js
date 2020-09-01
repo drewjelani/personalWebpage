@@ -9,21 +9,25 @@ const entryText = {
     JimWithLucySleep: "During our trip, I got PLENTY of opportunities to practice my shooting skills.  It was a great time being able " +
         "to both work on something I truly enjoy and capture a few beautiful moments of the family.",
     InZanzibarAgainstTheWall: "B and I took a trip to Africa.  It was a trip I'd wanted to take for some time, and I was glad to " +
-        "share the experience with her.  We spent time in Kenya and Tanzania."
+        "share the experience with her.  We spent time in Kenya and Tanzania.",
+    CannonBeachAndPreggo: "B and I took our last trip with just the two of us to the Oregon Coast. We spent time in Cannon Beach, Long Beach, " +
+        "and Manzanita.  In Cannon Beach, I think we've found our annual family vacation spot!"
 };
 
 const captions = {
     BWithBellyOutside: "Mama sitting outside admiring her bump",
     BInRiverPregnant: "B in the river, like the Arcata hippy sexy mama she is. ❤️",
     JimWithLucySleep: "Jim happily holding Lucy as she is sound asleep.",
-    InZanzibarAgainstTheWall: "My and my patna doing what patnas do."
+    InZanzibarAgainstTheWall: "My and my patna doing what patnas do.",
+    CannonBeachAndPreggo: "B posing in front of the coffee shop looking lovely!"
 };
 
 const altImage = {
     BWithBellyOutside: "BWithBellyOutside",
     BInRiverPregnant: "BInTheRiver",
     JimWithLucySleep: "JimHoldingLucyWhileSleep",
-    InZanzibarAgainstTheWall: "A&BinZanzibar"
+    InZanzibarAgainstTheWall: "A&BinZanzibar",
+    CannonBeachAndPreggo: "B posing before coffee"
 };
 
 const entries = [
@@ -38,6 +42,9 @@ const entries = [
     },
     {
         url:images.InZanzibarAgainstTheWall, text:entryText.InZanzibarAgainstTheWall, caption:captions.InZanzibarAgainstTheWall, alt:altImage.InZanzibarAgainstTheWall, date:"October 4, 2019"
+    },
+    {
+        url:images.CannonBeachAndPreggo, text:entryText.CannonBeachAndPreggo, caption:captions.CannonBeachAndPreggo, alt:altImage.CannonBeachAndPreggo, date:"August 31, 2020"
     }
 ];
 
