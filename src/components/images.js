@@ -6,7 +6,7 @@ const images = {
     BInRiverPregnant: transformToUrl('https://drive.google.com/file/d/1C8lgupATZeA8fuEhEIiUWekFG5lcMUk0/view?usp=sharing'),
     JimWithLucySleep: transformToUrl('https://drive.google.com/file/d/1uq0JrKQh_YddApPfPYZ0kq9E-awGc6F9/view?usp=sharing'),
     InZanzibarAgainstTheWall: transformToUrl("https://drive.google.com/file/d/13cUJWeOsY_894WhqzOc02rBkWKanFeH0/view?usp=sharing"),
-    CannonBeachAndPreggo: transformToUrl('https://drive.google.com/file/d/1AfhnkTEtOeGcaSDk--KHJE1eaIPqANZ-/view?usp=sharing')
+    CannonBeachAndPreggo: transformToUrl('https://drive.google.com/file/d/1n8a1mokNTWjl6WMErYKOKuBB16ARfU2p/view?usp=sharing')
 };
 
 export default images;
